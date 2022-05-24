@@ -1,0 +1,8 @@
+cabal-version: >= 1.10
+name: disable-warnings
+version: 0.2022.5.24
+build-type: Simple
+library
+  build-depends: base, ghc >= 9.0 && < 9.1
+  default-language: Haskell2010
+  exposed-modules: DisableWarnings
